@@ -4,4 +4,33 @@ body {
 
 .encabezado {
     text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.encabezado.tareas {
+    text-align: left;
+}
+
+.formulario {
+    width: 55%;
+    height: 24px;
+    border-radius: 10px;
+}
+
+.envio {
+    border-radius: 10px;
+    width: 40%;
+    height: 30px;
+    float: right;
+}
+
+.envio:active {
+    background-color: rgb(196, 196, 174);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
