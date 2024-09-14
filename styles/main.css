@@ -1,5 +1,6 @@
 body {
     background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .encabezado {
@@ -29,8 +30,17 @@ body {
     background-color: rgb(196, 196, 174);
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.foot {
+    text-align: center;
+    padding: 10px 0px;
+    margin-top: auto;
 }
