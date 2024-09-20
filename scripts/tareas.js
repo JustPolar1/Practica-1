@@ -12,8 +12,14 @@ formulario.addEventListener('submit', function(event) {
     const tareasHTML = document.getElementById('tareas');
     tareasHTML.innerHTML = '';
     
-    tareas.forEach((dato) => {
+    tareas.forEach((dato, index) => {
         const li = document.createElement('li');
+        if (index % 2 == 0){
+            li.classList.add('par');
+        }
+        else {
+            li.classList.add('impar');
+        }
         li.textContent = `${dato.tarea}`;
         tareasHTML.appendChild(li);
     });

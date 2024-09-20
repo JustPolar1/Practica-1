@@ -36,7 +36,19 @@ form button {
 }
 
 html, body {
-    height: 100%;
+    height: 99%;
+}
+
+.par {
+    color: blue;
+}
+
+.impar:hover {
+    color: blue;
+}
+
+.par:hover {
+    color: black;
 }
 
 .foot {
