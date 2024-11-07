@@ -56,3 +56,24 @@ html, body {
     padding: 10px 0px;
     margin-top: auto;
 }
+
+#tareas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#tareas li {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    overflow-wrap: anywhere;
+}
+
+.boton-completar {
+    flex-shrink: 0;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}

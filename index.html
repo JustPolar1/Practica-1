@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <link href="styles/main.css" rel="stylesheet">
-    <title>Práctica #1</title>
-</head>
-<body>
-    <h1 class="encabezado">¡Lista de tareas!</h1>
-    <section name="Enviar-tareas">
-        <form id="tarea">
-            <input id="task" type="text" placeholder="Comprar huevo..." required>
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
-    <div>
-        <h1 class="encabezado tareas">Tareas</h1>
-        <ul id="tareas"></ul>
-    </div>
+    <head>
+        <link href="styles/main.css" rel="stylesheet">
+        <title>Práctica #1</title>
+    </head>
+    <body>
+        <h1 class="encabezado">¡Lista de tareas!</h1>
+        <section name="Enviar-tareas">
+            <form id="tarea">
+                <input id="task" type="text" placeholder="Comprar huevo..." required>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <div>
+            <h1 class="encabezado tareas">Tareas</h1>
+            <ul id="tareas"></ul>
+        </div>
 
-    <div class="foot">
-        <hr>
-        <footer>Adán Giovanni Ramirez Erives</footer>
-    </div>
+        <div>
+            <h1 class="encabezado tareas">Tareas Terminadas</h1>
+            <ul id="tareas-terminadas"></ul>
+        </div>
 
-    <script src="scripts/tareas.js"></script>
-</body>
+        <div class="foot">
+            <hr>
+            <footer>Adán Giovanni Ramirez Erives</footer>
+        </div>
+
+        <script src="scripts/tareas.js"></script>
+    </body>
 </html>
